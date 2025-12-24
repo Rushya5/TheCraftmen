@@ -1,0 +1,156 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+
+  --color-sidebar: hsl(var(--sidebar));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-primary: hsl(var(--sidebar-primary));
+  --color-sidebar-primary-foreground: hsl(var(--sidebar-primary-foreground));
+  --color-sidebar-accent: hsl(var(--sidebar-accent));
+  --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+  --color-sidebar-ring: hsl(var(--sidebar-ring));
+  
+  --font-sans: "Montserrat", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+/* LIGHT MODE - Nature Inspired Premium */
+:root {
+  --background: 40 20% 97%; /* Warm off-white/stone */
+  --foreground: 100 20% 15%; /* Deep earthy green-black */
+
+  --card: 40 20% 99%;
+  --card-foreground: 100 20% 15%;
+
+  --popover: 40 20% 99%;
+  --popover-foreground: 100 20% 15%;
+
+  --primary: 88 40% 35%; /* The strong moss green from logo */
+  --primary-foreground: 40 20% 97%;
+
+  --secondary: 85 45% 85%; /* The light green accent */
+  --secondary-foreground: 88 40% 25%;
+
+  --muted: 40 10% 90%;
+  --muted-foreground: 100 10% 40%;
+
+  --accent: 85 45% 90%;
+  --accent-foreground: 88 40% 25%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 100 10% 85%;
+  --input: 100 10% 85%;
+  --ring: 88 40% 35%;
+
+  --radius: 0rem; /* Sharp, architectural corners */
+  
+  --chart-1: 12 76% 61%;
+  --chart-2: 173 58% 39%;
+  --chart-3: 197 37% 24%;
+  --chart-4: 43 74% 66%;
+  --chart-5: 27 87% 67%;
+  
+  --sidebar: 40 20% 97%;
+  --sidebar-foreground: 100 20% 15%;
+  --sidebar-primary: 88 40% 35%;
+  --sidebar-primary-foreground: 40 20% 97%;
+  --sidebar-accent: 85 45% 90%;
+  --sidebar-accent-foreground: 88 40% 25%;
+  --sidebar-border: 100 10% 85%;
+  --sidebar-ring: 88 40% 35%;
+}
+
+.dark {
+  --background: 100 20% 10%; /* Deep forest dark */
+  --foreground: 40 20% 95%;
+
+  --card: 100 20% 12%;
+  --card-foreground: 40 20% 95%;
+
+  --popover: 100 20% 12%;
+  --popover-foreground: 40 20% 95%;
+
+  --primary: 88 40% 45%;
+  --primary-foreground: 40 20% 95%;
+
+  --secondary: 100 20% 20%;
+  --secondary-foreground: 40 20% 95%;
+
+  --muted: 100 20% 20%;
+  --muted-foreground: 100 10% 60%;
+
+  --accent: 100 20% 20%;
+  --accent-foreground: 40 20% 95%;
+
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 100 20% 20%;
+  --input: 100 20% 20%;
+  --ring: 88 40% 45%;
+  
+  --sidebar: 100 20% 10%;
+  --sidebar-foreground: 40 20% 95%;
+  --sidebar-primary: 88 40% 45%;
+  --sidebar-primary-foreground: 40 20% 95%;
+  --sidebar-accent: 100 20% 20%;
+  --sidebar-accent-foreground: 40 20% 95%;
+  --sidebar-border: 100 20% 20%;
+  --sidebar-ring: 88 40% 45%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-medium tracking-tight;
+  }
+}

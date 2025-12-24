@@ -1,0 +1,260 @@
+Build a premium, modern, fully responsive corporate website for a professional landscape firm with the following details.
+
+🏢 Company Name
+
+THE CRAFTSMEN – Landscape
+
+🎨 BRAND & DESIGN DIRECTION
+
+Style: Elegant, professional, architectural, nature-inspired
+
+Vibe: Premium, calm, sustainable, timeless
+
+Theme: Outdoor luxury + craftsmanship
+
+Colors:
+
+Extract the primary color palette from the uploaded logo
+
+Use natural tones (greens, earthy browns, stone greys) only if they match the logo
+
+Typography:
+
+Clean modern serif or sans-serif
+
+Generous spacing, uppercase section headings
+
+UI:
+
+Minimalist layout
+
+Smooth scroll animations
+
+Subtle hover effects
+
+High-quality spacing and alignment
+
+Mobile-first and SEO optimized
+
+🧭 WEBSITE STRUCTURE & PAGES
+1️⃣ HOME PAGE
+
+Hero Section
+
+Full-width hero banner
+
+Headline:
+“Crafting Inspired Outdoor Landscapes”
+
+Subtext:
+Landscape • Hardscape • Softscape
+
+CTA Buttons:
+
+“View Our Work”
+
+“Contact Us”
+
+Intro Snapshot
+
+Short introduction about THE CRAFTSMEN Landscape
+
+Link to About Us page
+
+Services Overview
+
+Three feature cards:
+
+Landscape PMC
+
+Hardscape
+
+Softscape
+
+Featured Projects
+
+Grid-style portfolio preview
+
+Placeholder image cards (I will upload project images later)
+
+Button: “View Full Portfolio”
+
+Why Choose Us
+
+Quality
+
+Sustainability
+
+Attention to Detail
+
+End-to-End Execution
+
+2️⃣ ABOUT US PAGE
+
+Use the following content verbatim but professionally formatted:
+
+We specialize in transforming outdoor environments into inspired spaces that seamlessly blend functionality, aesthetics, and sustainability. With proven expertise in Landscape, Hardscape, and Softscape execution, we bring visionary designs to life down to the last detail.
+
+Our process is deeply rooted in understanding each client’s needs, the unique conditions of every site, and the long-term usability of our work. From lush gardens and vibrant green spaces to durable walkways and custom outdoor features, we focus on delivering excellence at every stage—driven by quality, innovation, and a passion for design.
+
+We create outdoor spaces that don’t just look beautiful—they enrich lives, encourage connection, and stand the test of time.
+
+3️⃣ SERVICES PAGE
+
+Create structured service sections:
+
+🌱 Landscape PMC
+
+Project Planning & Design Coordination
+
+Procurement Assistance
+
+Construction Supervision & Monitoring
+
+Communication & Reporting
+
+Quality Control
+
+🧱 Hardscape
+
+All Civil Works
+
+Fabrication
+
+Wooden Works
+
+Lighting
+
+Plumbing
+
+Irrigation
+
+🌿 Softscape
+
+Plantation
+
+Lawn Installation
+
+Vertical Gardens
+
+Indoor Plantation
+
+Maintenance
+
+Use icons for each service and a clean grid layout.
+
+4️⃣ PORTFOLIO / PROJECTS PAGE
+
+Create two main sections:
+
+🌿 Softscape Execution
+
+Ms. Deepa Reddy (Residential)
+
+Mr. Tharun (Residential)
+
+Ms. Meghana Agarwal (Residential)
+
+Ms. Anju (Residential)
+
+Ms. Rudrika (Residential)
+
+Kavitha Shrinath (Residential)
+
+Mr. Chakri (Residential)
+
+Sky Salt Cafe
+
+Mr. Sashikanth (Residential)
+
+Mounika Sathe (Residential)
+
+Ms. Pallavi Arka (Residential)
+
+Peacock Life Store
+
+Lock and Décor Store
+
+🧱 Hardscape Execution
+
+Aranya Resorts
+
+Aranya Resorts – Feature Installation
+
+Aranya Resorts (Multiple Works)
+
+Mr. Pratap (Residential) – Ongoing
+
+Stone Craft (Fabrication & Civil)
+
+🔹 Important:
+
+Leave image placeholders for each project
+
+Each project card should support:
+
+Image upload
+
+Project title
+
+Category tag (Residential / Commercial / Hospitality)
+
+5️⃣ CONTACT PAGE
+
+Minimal and professional layout.
+
+Contact for Softscape
+
+Name: Srihari Sattu
+
+Phone: +91 78930 59814
+
+Add:
+
+Click-to-call button
+
+Contact form (Name, Phone, Email, Message)
+
+WhatsApp integration button
+
+⚙️ TECHNICAL REQUIREMENTS
+
+Fully responsive (mobile, tablet, desktop)
+
+Fast loading
+
+Clean semantic HTML
+
+Modern CSS (Flexbox / Grid)
+
+Subtle animations
+
+SEO-friendly headings
+
+Image lazy loading
+
+Easy image replacement for portfolio
+
+🖼️ ASSETS
+
+I will upload:
+
+Company logo (use it to derive colors)
+
+Project images (replace placeholders)
+
+Until then, use neutral placeholder images
+
+🚀 FINAL OUTPUT EXPECTATION
+
+A complete, production-ready corporate website
+
+Suitable for:
+
+Client presentations
+
+High-end residential & commercial landscape pitching
+
+Portfolio showcasing
+
+Clean, elegant, and professional
